@@ -1,5 +1,7 @@
 # cnake - Snake clone written in C
 
+Snake clone written in C using [Raylib 4.0](www.raylib.com)
+
 ![cnakegif](cnake.gif)
 
 ## How to build:
