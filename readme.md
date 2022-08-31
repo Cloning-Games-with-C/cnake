@@ -13,7 +13,8 @@ Snake clone written in C using [Raylib 4.0](www.raylib.com)
 ```console
 git clone https://github.com/mscode98/cnake.git
 cd cnake
-cmake .
+mkdir build
+cmake ..
 make
 ./cnake
 ```
