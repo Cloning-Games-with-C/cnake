@@ -91,17 +91,17 @@ void update_snake()
 
     if (snake[0].x < 0)
     {
-        snake[0].x = WIDTH;
+        snake[0].x = WIDTH - 20;
     }
-    else if (snake[0].x > WIDTH)
+    else if (snake[0].x >= WIDTH)
     {
         snake[0].x = 0;
     }
     if (snake[0].y < 40)
     {
-        snake[0].y = HEIGHT;
+        snake[0].y = HEIGHT - 20;
     }
-    else if (snake[0].y > HEIGHT)
+    else if (snake[0].y >= HEIGHT)
     {
         snake[0].y = 40;
     }
